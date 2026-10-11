@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="birthday-content">
+  <div class="vouge">
+    <div class="paper paper-back"></div>
+    <div class="paper paper-middle"></div>
+
+    <img src="img/koktel.png" alt="Koktel" class="cocktail cocktail-top">
+  <img src="img/koktel.png" alt="Koktel" class="cocktail cocktail-left">
+  <img src="img/koktel.png" alt="Koktel" class="cocktail cocktail-right">
+
+    <div class="vouge-page">
+        <img src="img/vouge.png" alt="Sandrina rođendanska naslovnica" class="vouge-photo">
+    </div>
+</div>
+
+<div class="vinyl-rsvp-row">
+
+    <div class="vinyl">
+        <img src="img/vinyl.png" alt="Vinil ploča" class="vinyl-record">
+    </div>
+
+    <div class="rsvp-title">
+        NIGHT <br>
+        TO <br>
+        REMEMBER
+    </div>
+
+</div>
+
+<div class="rsvp-section">
+    <div class="cocktail-menu">
+        <p class="menu-eyebrow">SANDRA'S BIRTHDAY</p>
+        <h2 class="menu-title">You're invited</h2>
+
+        <div class="menu-divider">
+            <span>✦</span>
+        </div>
+
+        <p class="menu-heading">RSVP</p>
+        <p class="menu-description">Potvrdi svoj dolazak</p>
+
+        <form id="rsvpForm">
+            <div class="form-group">
+                <label for="fullName">Ime i prezime <span>*</span></label>
+                <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Tvoje ime i prezime"
+                    autocomplete="name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Broj telefona <span>*</span></label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="06x xxx xxxx"
+                    autocomplete="tel"
+                    required
+                >
+            </div>
+
+            <fieldset class="attendance-group">
+                <legend>Da li dolaziš? <span>*</span></legend>
+
+                <label class="radio-option">
+                    <input
+                        type="radio"
+                        name="attendance"
+                        value="Dolazim"
+                        required
+                    >
+                    <span>Dolazim</span>
+                </label>
+
+                <label class="radio-option">
+                    <input
+                        type="radio"
+                        name="attendance"
+                        value="Ne dolazim"
+                        required
+                    >
+                    <span>Ne dolazim</span>
+                </label>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="note">Napomena</label>
+                <textarea
+                    id="note"
+                    name="note"
+                    rows="3"
+                    placeholder="Imaš li neku poruku za Sandru?"
+                ></textarea>
+            </div>
+
+            <button type="submit" class="send-button">
+                POŠALJI
+                <span>✦</span>
+            </button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<audio id="madonna" src="audio/madonna.mp3" preload="auto"></audio>
+<script src="script.js"></script>    
+</body>
+</html>
